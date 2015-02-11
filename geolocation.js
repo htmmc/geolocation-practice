@@ -14,7 +14,7 @@ function onLocationSuccess (position) {
 
 //callback function
 function onLocationErrors (position){
-  map.innerHTML = "<p>Errors - cannot locate you</p>";
+  map.innerHTML = "<p>Errors - unable to retrieve your location</p>";
 }
 
 //show map with latitude and longitude inputs
@@ -57,6 +57,6 @@ findme.addEventListener("click", findMyLocation);
 //call function onLocate when the button is clicked
 var elSubmit = document.getElementById("submitLocation");
 elSubmit.addEventListener("click", onLocate);
-
+//call function fetchCityData when the city value is entered
 var elFindCity = document.getElementById("submitCity");
 elFindCity.addEventListener("click", fetchCityData);

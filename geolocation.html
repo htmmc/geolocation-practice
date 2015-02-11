@@ -2,20 +2,27 @@
 <html lang="en">
 	<head>
 		<script src="https://cdn.polyfill.io/v1/polyfill.js?features=fetch"></script>
+		<link rel="stylesheet" href="stylesheet.css">
 		<meta charset="utf-8">
 	</head>
 	<body>
-		<button id="findMe">Find My Location</button>
-		<br>
-		<lable>Latitude: <input type="number" name="latInput" id="latitudeInput"></lable>
-		<br>
-		<lable>Longitude: <input type="number" name="longInput" id="longitudeInput"></lable>
-		<input type="submit" value="Find" id="submitLocation">
+		<div>
+			<label>Current Location Finder: <button id="findMe">Find</button>
+		</div>
+		<div>
+			<lable>Latitude: <input type="number" name="latInput" id="latitudeInput" placeholder="Enter Latitude"></lable>
+		</div>
+		<div>
+			<lable>Longitude: <input type="number" name="longInput" id="longitudeInput"  placeholder="EnterLongitude"></lable>
+			<input type="submit" value="Find" id="submitLocation">
+		</div>
+		<div>
+			<label>City: <input type="text" name="cityname" id="cityInput" placeholder="Type in city name"></lable>
+			<input type="submit" value="See on Map" id="submitCity">
+		</div>
 		<div id="map"></div>
-		<label>City: <input type="text" name="cityname" id="cityInput" placeholder="Type in city name"></lable>
-		<input type="submit" value="See on Map" id="submitCity">
 	<script src="geolocation.js"></script>
-	
+
 	</body>
 </html>
 
