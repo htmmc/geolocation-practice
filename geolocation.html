@@ -6,23 +6,25 @@
 		<meta charset="utf-8">
 	</head>
 	<body>
-		<div>
-			<label>Current Location Finder: <button id="findMe">Find</button>
-		</div>
-		<div>
-			<lable>Latitude: <input type="number" name="latInput" id="latitudeInput" placeholder="Enter Latitude"></lable>
-		</div>
-		<div>
-			<lable>Longitude: <input type="number" name="longInput" id="longitudeInput"  placeholder="EnterLongitude"></lable>
-			<input type="submit" value="Find" id="submitLocation">
-		</div>
-		<div>
-			<label>City: <input type="text" name="cityname" id="cityInput" placeholder="Type in city name"></lable>
-			<input type="submit" value="See on Map" id="submitCity">
+		<div id="container">
+			<div>
+				<label>Current Location Finder: <button id="findMe">Find</button>
+			</div>
+			<div>
+				<lable>Latitude: <input type="number" name="latInput" id="latitudeInput" placeholder="Enter Latitude"></lable>
+			</div>
+			<div>
+				<lable>Longitude: <input type="number" name="longInput" id="longitudeInput"  placeholder="EnterLongitude"></lable>
+				<input type="submit" value="Find" id="submitLocation">
+			</div>
+			<div>
+				<label>City: <input type="text" name="cityname" id="cityInput" placeholder="Type in city name"></lable>
+				<input type="submit" value="See on Map" id="submitCity">
+			</div>
 		</div>
 		<div id="map"></div>
 	<script src="geolocation.js"></script>
-
+	<script src="geolocation_2.js"></script>
 	</body>
 </html>
 
