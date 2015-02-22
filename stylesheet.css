@@ -1,6 +1,57 @@
 body {
-  background-color: #fff:;
-  font-family: "Helvetica neue", arial;
-  color:515455;
+  background-color: #222930;
+  font: 400 18px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
+  color:#E9E9E9;
   font-size: 14px;
+}
+h1 {
+  font: 400 50px/1.6 'Pacifico', Georgia, serif;
+  color:#4EB1BA;
+}
+
+#header{
+  height:60px;
+  width: 100%;
+  text-align:center;
+}
+.container_list{
+	 height:40px;
+   font: 400 18px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
+   margin:0 auto;
+}
+#container{
+	padding:10px;
+	height: 200px;
+  width:450px;
+  line-height: 200%;
+  margin-top:80px;
+  margin-left:50px;
+  float:left;
+
+}
+#map{
+	background-color: #222930;
+  float:left;
+  margin-top:80px;
+}
+#findMe, #submitLocation, #submitCity{
+  font: 400 16px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
+  color: #E9E9E9;
+  background-color:#4EB1BA;
+  width:80px;
+  border:0;
+  border-radius:2px;
+  margin-left:40px;
+}
+#submitCity{
+  width:120px;
+}
+#latitudeInput, #longitudeInput, #cityInput{
+   font: 400 14px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
+   border:none;
+   border-radius: 2px;
+}
+label{
+  font: 400 20px/1.6 'Arimo', Verdana, Helvetica, sans-serif;
+
 }

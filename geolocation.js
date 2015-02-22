@@ -3,7 +3,7 @@ var elLatitudeInput = document.getElementById("latitudeInput");
 var elLongitudeInput =document.getElementById("longitudeInput");
 
 function LocationShow (latitude, longitude){ 
-  var image = "<img src='https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center=" + latitude + "," + longitude + "' width='700' height=auto>";
+  var image = "<img src='https://maps.googleapis.com/maps/api/staticmap?zoom=13&size=600x300&center=" + latitude + "," + longitude + "' width='500' height=auto>";
   element.innerHTML = image;
 }
 

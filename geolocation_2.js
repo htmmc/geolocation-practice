@@ -6,7 +6,7 @@ function findMyLocation() {
   console.log("Geolocation is available");
   navigator.geolocation.getCurrentPosition(onLocationSuccess, onLocationErrors);
 } else {
-  alert("No Geolocation available");
+  alert("Your browser does not support Geolocation");
 }
 };
 //fetch data 
